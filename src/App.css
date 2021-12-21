@@ -1,0 +1,109 @@
+.main{
+  display: flex;
+  width: 45%;
+  height: 65%;
+  margin-left:2%;
+  background-color:ghostwhite;
+  position: absolute;
+  margin-top: 7%;
+}
+
+.container{
+  background-color:ghostwhite;
+}
+
+.nameField{
+  padding: 8px 10px 10px 0;
+  width: 50%;
+  color: #000;
+  font-size: inherit;
+  background: ghostwhite;
+  border: none;
+  border-bottom: 1px solid ghostwhite;
+  margin-left: 2%;
+  line-height: 1.4;
+  position:absolute;
+  margin: 7%;
+}
+
+.nameField:focus{
+  outline: none;
+  border-bottom: 3px solid rgb(143, 211, 238);
+}
+
+.inputField{
+  margin-top:20%;
+  padding: 8px 10px 10px 0;
+  width: 50%;
+  color:black;
+  font-size: inherit;
+  background: ghostwhite;
+  border: none;
+  border-bottom: 1px solid ghostwhite;
+  margin-left: 7.7%;
+  line-height: 1.4;
+  position:absolute;
+}
+
+.inputField:focus{
+  outline: none;
+  border-bottom: 3px solid rgb(143, 211, 238)ue;
+}
+
+.createbtn{
+  width: 51%;
+  height: 10%;
+  margin-top: 60%;
+  position: absolute;
+  margin-left: 6%;
+  background-color:rgb(81, 81, 160);
+  font-family: Roboto,Arial,sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+}
+
+.card{
+  display:block;
+  width: 53%;
+  height: 65%;
+  margin-left:86%;
+  background-color:ghostwhite;
+  position: absolute;
+  margin-top: 7%;
+}
+
+.imgalign{
+  margin-left:28%;
+  width: 65%;
+  height:40%;
+  margin-left:14%;
+  position: absolute;
+  margin-top: 6%;
+
+}
+
+.content{
+  margin-left:28%;
+  width: 74%;
+  height:32%;
+  margin-left:1%;
+  position: absolute;
+  margin-top: 59%;
+
+}
+
+.deletebtn{
+  width: 40%;
+  height: 36%;
+  margin-top:-2%;
+  position: absolute;
+  margin-left: 76%;
+  background-color:tomato;
+  font-family: Roboto,Arial,sans-serif;
+  color: ghostwhite;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+}
